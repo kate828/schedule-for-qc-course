@@ -33,9 +33,9 @@
 ### 2. Mutation Testing (Stryker) — ДО розширення
 <img width="1913" height="675" alt="before" src="https://github.com/user-attachments/assets/887d9989-e8c5-4b6e-9eb4-302727ba4ee2" />
 
-*На початковому етапіMutation Score був низьким (~53%), оскільки багато мутантів у функціях сортування мали статус "No coverage".*
+*На початковому етапіMutation Score був низьким (~53%), оскільки багато мутацій у функціях сортування мали статус "No coverage".*
 
 ### 3. Mutation Testing (Stryker) — ПІСЛЯ розширення
 <img width="1904" height="658" alt="after" src="https://github.com/user-attachments/assets/5bcccff4-018e-4c85-aefe-19c732f89f25" />
 
-*Після додавання 12 тестів Mutation Score зріс до **95.74%**. Було вбито 45 мутантів. 2 мутанти вижили, оскільки вони є еквівалентними (зміна `if(afterId)` на `if(true)` не змінює поведінку програми при передачі null).*
+*Після додавання 12 тестів Mutation Score зріс до **95.74%**. Було вбито 45 мутацій. 2 мутації вижили, оскільки вони є еквівалентними (зміна `if(afterId)` на `if(true)` не змінює поведінку програми при передачі null).*
