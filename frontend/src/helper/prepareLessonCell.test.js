@@ -57,3 +57,35 @@ describe('prepareLessonSubCardCell function', () => {
         });
     });
 });
+
+describe('Нові тести для розширення покриття (Варіант 4)', () => {
+  it('має коректно працювати, якщо відсутній room (аудиторія)', () => {
+    const card = { lessonType: 'LECTURE' }; 
+    expect(() => prepareLessonSubCardCell(card, places.AUDITORY)).toThrow(TypeError);
+  });
+
+  it('має коректно обробляти різні значення place', () => {
+    const card = { room: { name: '101' }, lessonType: 'PRACTICE' };
+    const resultOnline = prepareLessonSubCardCell(card, places.ONLINE);
+    const resultAuditory = prepareLessonSubCardCell(card, places.AUDITORY);
+    expect(typeof resultOnline).toBe('string');
+    expect(typeof resultAuditory).toBe('string');
+  });
+
+  it('викидає помилку, якщо card містить null замість room', () => {
+    const emptyCard = { room: null, lessonType: 'LECTURE' };
+
+    expect(() => prepareLessonSubCardCell(emptyCard, places.AUDITORY)).toThrow(TypeError);
+  });
+
+  it('має обробляти різні формати lessonType (регістр)', () => {
+    const cardLower = { room: { name: '101' }, lessonType: 'laboratory' };
+    const cardUpper = { room: { name: '101' }, lessonType: 'LABORATORY' };
+    
+    const resultLower = prepareLessonSubCardCell(cardLower, places.AUDITORY);
+    const resultUpper = prepareLessonSubCardCell(cardUpper, places.AUDITORY);
+    
+    expect(typeof resultLower).toBe('string');
+    expect(typeof resultUpper).toBe('string');
+  });
+});
