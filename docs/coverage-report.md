@@ -36,7 +36,6 @@
 *На початковому етапіMutation Score був низьким (~53%), оскільки багато мутантів у функціях сортування мали статус "No coverage".*
 
 ### 3. Mutation Testing (Stryker) — ПІСЛЯ розширення
-![Mutation Report ДО](../Pictures/Screenshots/after.png)
 <img width="1904" height="658" alt="after" src="https://github.com/user-attachments/assets/5bcccff4-018e-4c85-aefe-19c732f89f25" />
 
 *Після додавання 12 тестів Mutation Score зріс до **95.74%**. Було вбито 45 мутантів. 2 мутанти вижили, оскільки вони є еквівалентними (зміна `if(afterId)` на `if(true)` не змінює поведінку програми при передачі null).*
