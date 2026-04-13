@@ -1,6 +1,6 @@
 # Coverage Report
 
-## Загальне покриття (папка src/helper)
+## Загальне покриття 
 - **Statements/Instructions:** 40.6%
 - **Branches:** 27.64%
 - **Functions/Methods:** 30.95%
