@@ -32,6 +32,8 @@
 
 ### 2. Mutation Testing (Stryker) — ДО розширення
 <img width="1913" height="675" alt="before" src="https://github.com/user-attachments/assets/887d9989-e8c5-4b6e-9eb4-302727ba4ee2" />
+<img width="1914" height="568" alt="image" src="https://github.com/user-attachments/assets/c757ad33-bb72-4b80-9bfb-b703c297ce99" />
+
 
 *На початковому етапіMutation Score був низьким (~53%), оскільки багато мутацій у функціях сортування мали статус "No coverage".*
 
