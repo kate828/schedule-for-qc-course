@@ -39,5 +39,7 @@
 
 ### 3. Mutation Testing (Stryker) — ПІСЛЯ розширення
 <img width="1904" height="658" alt="after" src="https://github.com/user-attachments/assets/5bcccff4-018e-4c85-aefe-19c732f89f25" />
+<img width="1912" height="547" alt="image" src="https://github.com/user-attachments/assets/591c9ee2-9449-4798-b0c1-23e5da395cdd" />
+
 
 *Після додавання 12 тестів Mutation Score зріс до **95.74%**. Було вбито 45 мутацій. 2 мутації вижили, оскільки вони є еквівалентними (зміна `if(afterId)` на `if(true)` не змінює поведінку програми при передачі null).*
