@@ -31,13 +31,13 @@ prepareLessonSubCardCell (у файлі prepareLessonCell.js) — покрита
 
 
 
-### 2. Mutation Testing (Stryker) — ДО розширення
+### 2. Mutation Testing  — ДО розширення
 <img width="1908" height="562" alt="image" src="https://github.com/user-attachments/assets/113053a1-8d58-48b2-8a61-f09b3af805c9" />
 
 
 *На початковому етапіMutation Score був низьким (~53%), оскільки багато мутацій у функціях сортування мали статус "No coverage".*
 
-### 3. Mutation Testing (Stryker) — ПІСЛЯ розширення
+### 3. Mutation Testing  — ПІСЛЯ розширення
 <img width="1912" height="547" alt="image" src="https://github.com/user-attachments/assets/591c9ee2-9449-4798-b0c1-23e5da395cdd" />
 
 
