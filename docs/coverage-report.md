@@ -1,10 +1,10 @@
 # Coverage Report
 
 ## Загальне покриття 
-- **Statements/Instructions:** 40.6%
-- **Branches:** 27.64%
-- **Functions/Methods:** 30.95%
-- **Lines:** 40.9%
+- **Statements/Instructions:** 30.68%
+- **Branches:** 11.31%
+- **Functions/Methods:** 32.64%
+- **Lines:** 9.17%
 
 ## Аналіз
 
